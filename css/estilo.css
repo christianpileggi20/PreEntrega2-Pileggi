@@ -99,8 +99,18 @@ h1 {
 
 .inputButton {
     float: left;
-    padding: 8px;
+    padding: 4px;
+    background-color: blue;
+    border-radius: 4px;
+    margin: 5px;
 } 
+
+legend {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
 
 /* FOOTER */
 
