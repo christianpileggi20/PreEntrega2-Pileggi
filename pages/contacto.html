@@ -58,19 +58,21 @@
 
     <main>
         <div class="formulario">
-            <form>
+            <form data-aos="fade-down">
                 <fieldset>
                     <legend> Formulario de contacto </legend>
                     <label for="">Nombre:</label>
-                    <div class="inputForm"> <input type="text" placeholder="Nombre..."> </div> <br><br>
+                    <div class="inputForm"> <input type="text" required placeholder="Ingrese su nombre"> </div>
                     <label for="">Apellido:</label>
-                    <div class="inputForm"> <input type="text" placeholder="Apellido..."> </div> <br><br>
+                    <div class="inputForm"> <input type="text" required placeholder="Ingrese su apellido"> </div>
                     <label for="">Correo Electronico:</label>
-                    <div class="inputForm"> <input type="email" placeholder="Correo..."> </div> <br><br>
-                    <label for="">Tu mensaje:</label> <br>
-                    <textarea></textarea>
+                    <div class="inputForm"> <input type="email" required placeholder="Ingrese su correo"> </div>
+                    <div class="inputForm">
+                        <label for="">Tu mensaje:</label> <br>
+                        <textarea></textarea>
+                    </div>
 
-                    <br><br>
+                    <br>
 
                     <div class="inputButton"> <input type="submit" value="Enviar"> </div>
                     <div class="inputButton"> <input type="reset" value="Restablecer"> </div>
